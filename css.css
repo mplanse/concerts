@@ -1,0 +1,138 @@
+nav div ul li {
+  display: inline-block;
+  position: relative;
+}
+
+#submenu {
+  position: absolute;
+  display: none;
+}
+
+#artistes:hover #submenu {
+  display: block;
+}
+nav {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #2f2f2f;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+nav li{
+  text-align: center;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;  
+  text-decoration: none;
+  margin-right: 40px;
+  text-align: center;
+  align-items: center;
+}
+#titulo {
+  background-color: #1c1c1c;
+  padding: 1%;
+  text-align: left;
+}
+
+#titulo h1 {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+#tablaartistes {
+  border: 1px #1a1a1a;
+  text-align: center;
+  margin:0 auto;
+} 
+
+.texto1 {
+  font-size: 30px;
+  color: #161616;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.fotoartistes:hover{
+opacity: 0.6;
+}
+
+.nomartista{
+  font-size: 14px;
+  color: #161616;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.genereartista{
+  font-size: 12px;
+  color: #161616;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.tituloartistagrupo{
+  font-size: 24px;
+  color: #161616;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  text-align: left;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+max-width: 800px;
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+}
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+      }
+th {
+background-color: #f2f2f2;
+}
+.tr2:hover{
+background-color: #f5f5f5;
+}
+
+.h1videos{
+  font-size: 32px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+video {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
+.h1videosartistas{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.imgtabla{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.historiatitulo {
+  font-size: 32px;
+  color: #000000;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.historialink{
+  font-size: 16px;
+  color: #000000;
+  font-family:Arial, Helvetica, sans-serif;
+}
